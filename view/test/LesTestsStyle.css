@@ -4,7 +4,7 @@ body{
 .test{/*premiere slide page de test*/
     width: 100%;
     height: 90%;
-    background: url(../../../Infinite-measure/Infinite-measure/images/test_deroulement.png) no-repeat center center ;
+    background: url(../../images/test_deroulement.png) no-repeat center center ;
     background-color:#8ECBEA ;
     background-size: cover;
 }

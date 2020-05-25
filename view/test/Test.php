@@ -42,6 +42,6 @@
     </div>
 
 
-    <script src="../acceuil/app.js" charset="utf-8"></script>
+    <script src="../accueil/app.js" charset="utf-8"></script>
 
 </body>

@@ -18,7 +18,7 @@ $_SESSION["location"] = 'http://'.$_SERVER['HTTP_HOST'].$_SERVER['PHP_SELF'];?>
     <link rel="stylesheet" href="headerStyle.css"/>
     <link rel="stylesheet" href="../footer/footerStyle.css"/>
     <link rel="stylesheet" href="../test/ResultatsStyle.css"/>
-    <link rel="stylesheet" href="../acceuil/normalize.css"/>
+    <link rel="stylesheet" href="../accueil/normalize.css"/>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js" charset="utf-8"></script>
 

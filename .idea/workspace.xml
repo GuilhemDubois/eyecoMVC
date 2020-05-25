@@ -25,7 +25,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/view/FAQ" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
   </component>
   <component name="RecentsManager">
@@ -53,6 +53,7 @@
       <updated>1590307433458</updated>
       <workItem from="1590307434746" duration="29630000" />
       <workItem from="1590414161102" duration="1053000" />
+      <workItem from="1590416952858" duration="1715000" />
     </task>
     <servers />
   </component>

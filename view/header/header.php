@@ -13,7 +13,7 @@ $_SESSION["location"] = $adresse;
 <title> i</title>
 
 <link rel="stylesheet" type="text/css" href="view/header/headerStyle.css">
-<link rel="stylesheet" type="text/css" href="view/acceuil/normalize.css">
+<link rel="stylesheet" type="text/css" href="view/accueil/normalize.css">
 <link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js" charset="utf-8"></script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -32,7 +32,7 @@ $_SESSION["location"] = $adresse;
             </div>
 
             <div class="m-left-logo">
-                <a href="eyeco.php"><img src="images/logopetitpetit.png"/></a>
+                <a href="controller.php?function=accueil"><img src="images/logopetitpetit.png"/></a>
             </div>
 
             <div class="m-left">
@@ -40,7 +40,7 @@ $_SESSION["location"] = $adresse;
             </div>
 
             <div class="m-right">
-                <a href="controller.php?function=acceuil" class="m-link"><i class="fas fa-home"></i> <?php if ($_SESSION['langue'] == 'francais')
+                <a href="controller.php?function=accueil" class="m-link"><i class="fas fa-home"></i> <?php if ($_SESSION['langue'] == 'francais')
                     {
                         echo "Accueil ";
                     }

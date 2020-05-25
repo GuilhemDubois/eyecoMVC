@@ -74,7 +74,7 @@ switch ($function) {
     if (password_verify($_POST['mdp'],$user->mdp)) {
         $_SESSION['auth'] = $user;
         var_dump($_SESSION['auth']);
-        header('Location: controller.php?function=acceuil');
+        header('Location: controller.php?function=accueil');
         exit();
     }else{
         if ($_SESSION['langue'] == 'francais') {
@@ -90,15 +90,15 @@ switch ($function) {
       }
 
         $vue="connexion\VotreProfil";
-        $css="acceuil\styleAcceuil";
+        $css="accueil\styleAccueil";
 
 
 
 
         break;
 
-    case 'acceuil':
-        $vue="acceuil/eyeco";
+    case 'accueil':
+        $vue="accueil/eyeco";
         break;
 
     case 'deconnexion':

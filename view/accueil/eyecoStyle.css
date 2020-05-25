@@ -1,7 +1,7 @@
 .accueil{/*premiere slide page d'accueil*/
     width: 100%;
     height: 100%;
-    background: url(../../../Infinite-measure/Infinite-measure/images/background.png) no-repeat center center ;
+    background: url(../../images/background.png) no-repeat center center ;
     background-size: cover;
 }
 
@@ -23,13 +23,13 @@
     left:50%;
     transform:translate(-50%,-50%);
 }
-.a-title h2{/*Ajuster le titre de la page d'acceuil*/
+.a-title h2{/*Ajuster le titre de la page d'accueil*/
     font-weight: 700;
 }
 .a-info {/*Deuxieme slide page d'accueil*/
     width: 100%;
     height: 100%;
-    background: url(../../../Infinite-measure/Infinite-measure/images/accueil_1.PNG) no-repeat center center ;
+    background: url(../../images/Accueil.png) no-repeat center center ;
     background-size: cover;
 }
 @media only screen and (max-width: 1130px){/*Responsive*/

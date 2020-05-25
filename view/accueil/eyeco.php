@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <title>Eyeco</title>
 
-    <link rel="stylesheet" href="view/acceuil/eyecoStyle.css"/>
+    <link rel="stylesheet" href="view/accueil/eyecoStyle.css"/>
 
 
 </head>

@@ -76,7 +76,7 @@
         </div>
 
         <div class="footer-logo">
-            <img src="../../../Infinite-measure/Infinite-measure/images/infinitemeasures.png" class="f-logo" alt="logo"/>
+            <img src="images/infinitemeasures.png" class="f-logo" alt="logo"/>
         </div>
     </div>
 
