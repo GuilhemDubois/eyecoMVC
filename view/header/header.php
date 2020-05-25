@@ -10,7 +10,7 @@ $_SESSION["location"] = $adresse;
 ?>
 
 <meta charset="UTF-8">
-<title> i</title>
+
 
 <link rel="stylesheet" type="text/css" href="view/header/headerStyle.css">
 <link rel="stylesheet" type="text/css" href="view/accueil/normalize.css">
