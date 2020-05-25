@@ -1,0 +1,117 @@
+body{
+    background-color:#8ECBEA ;
+}
+.connexion{/*page de connexion en générale*/
+    width: 100%;
+    height: 90%;
+    background-color:#8ECBEA ;
+}
+
+h3{/*titre connexion*/
+    margin:0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-weight: 700;
+    color: white;
+}
+.c-form{/*div contenant les cases à remplir + se connecter*/
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    box-sizing: border-box;
+    background-color: lightblue;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: .3rem 2px .3rem rgba(0,0,0,.1);
+}
+
+.c-form input[type=text], .c-form input[type=password]{/*case id et mdp*/
+    margin-bottom: 20px;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid white;
+    background-color: transparent;
+    outline: none;
+    height: 30px;
+    color:white;
+}
+.c-form input[type=submit]{/*case se connecter*/
+    margin-bottom: 20px;
+    width: 100%;
+    border: 1px solid black;
+    height: 40px;
+    outline: none;
+    background-color: lightgrey;
+    border-radius: 4px;
+}
+.c-form input[type=submit]:hover{
+    cursor: pointer;
+    background-color: grey;
+    color: white;
+}
+.c-form a{/*pour les liens de redirection*/
+    text-decoration: none;
+    color: black;
+}
+.c-form a:hover{
+
+    color:white;
+}
+.error{
+    background-color: #8ECBEA;
+    margin-top: 3%;
+    width: 100%;
+    text-align: center;
+    color: red;
+    font-size: small;
+}
+
+@media only screen and (max-width: 1130px){
+    .m-right{/*Supprimer le nom des pages sous 1130px*/
+        position: absolute;
+        top:66px;right: 0;
+        width:200px;
+        height:100%;
+        background: cornflowerblue;
+        transform: translateX(100%);
+        transition: all 0.3s ease-in-out;
+    }
+    .m-right button{/*Ajuster le bouton langues dans le menu deroulant*/
+        margin-top: 10px;
+        margin-left: 55px;
+    }
+    .m-link{/*Affichage des liens sur la droite*/
+        display: block;
+        text-align: center;
+        padding: 0px;margin: 0 20px;
+        height: 55px;
+    }
+    .m-nav-toggle{/*Hamburger*/
+        display: flex;
+    }
+}
+@media only screen and (max-width: 930px){/*Responsive*/
+    .m-right{/*Supprimer le nom des pages sous 930px*/
+        position: absolute;
+        top:66px;right: 0;
+        width:200px;
+        height:100%;
+        background: cornflowerblue;
+        transform: translateX(100%);
+        transition: all 0.3s ease-in-out;
+    }
+    .m-right button{/*Ajuster le bouton langues dans le menu deroulant*/
+        margin-top: 10px;
+        margin-left: 55px;
+    }
+    .m-link{/*Affichage des liens sur la droite*/
+        display: block;
+        text-align: center;
+        padding: 0px;margin: 0 20px;
+        height: 55px;
+    }
+    .m-nav-toggle{/*Hamburger*/
+        display: flex;
+    }
+}

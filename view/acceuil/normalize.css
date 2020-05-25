@@ -1,0 +1,17 @@
+
+/*FICHIER DE NORMALISATION*/
+
+/*Importation des polices*/
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,900&display=swap');
+
+html,body{/*Ensemble du site*/
+    margin:0;padding:0;
+    font-family: lato;
+    overflow-x: hidden;
+}
+
+.inner{ /**mêmes marges gauche/droite dans le header*/
+    width:80%;
+    margin:auto;
+}

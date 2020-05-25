@@ -1,0 +1,106 @@
+.menu{/*nav du header*/
+    width:100%;
+    height:11%;
+    background: cornflowerblue;
+    line-height: 440%;
+}
+.m-left-logo{/*logo*/
+    float: left;
+    cursor: pointer;
+}
+.m-left{/*Div gauche du header*/
+    float:left;
+}
+.logo{/*Gros titre eyeco*/
+    margin:0;padding: 0;
+    margin-left: 20%;
+    color:white;
+    text-transform: uppercase;
+    font-family: 'Roboto';
+    font-weight: 900;
+    font-size : 220%;
+    letter-spacing: 1px;
+}
+.m-right{/*Div droite du header*/
+    float:right;
+}
+.m-link{/*Nom des page header*/
+    text-decoration: none;
+    color:white;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 0;margin: 0 10px;
+    transition: all 0.3s ease-in-out; /*durée du hover*/
+    border-bottom: 2px solid transparent; /*permet de moins ralentir le navigateur*/
+    padding-bottom: 1%;
+}
+.m-link:hover{/*Hover des noms de page*/
+    border-bottom: 2px solid white;
+
+}
+.m-link i{/*Icone*/
+    margin-right: 5px;
+}
+
+.m-nav-toggle{/*Hamburger responsive*/
+    width:40px;
+    height:66px;
+
+    display: none;
+    align-items: center;
+    float:right;
+    cursor: pointer;/*mettre un curseur main dessus*/
+}
+span.m-toggle-icon, span.m-toggle-icon:before, span.m-toggle-icon:after{/*Barre du hamburger*/
+    content: "";
+    display: block;
+    width: 100%;
+    height: 3px;
+    background: white;
+    position: relative;
+    transition : all 0.3s ease-in-out;
+}
+span.m-toggle-icon:before{top:10px}/*Deuxieme barre du hamburger*/
+span.m-toggle-icon:after{top:-14px}/*troisieme barre du hamburger*/
+
+.m-right.is-open{
+    transform: translateX(0);
+}
+.m-nav-toggle.is-open span.m-toggle-icon{/*Animation du hamburger*/
+    background: transparent;
+}
+.m-nav-toggle.is-open span.m-toggle-icon:before, .m-nav-toggle.is-open span.m-toggle-icon:after{/*transformer le hambuger en croix*/
+    transform-origin: center;
+    transform: rotate(45deg);
+    top:0;
+}
+.m-nav-toggle.is-open span.m-toggle-icon:before{/*deuxieme barre de la croix*/
+    transform: rotate(-45deg);
+}
+
+
+
+@media only screen and (max-width: 1270px){/*Responsive*/
+    .m-right{/*Supprimer le nom des pages sous 1200px*/
+        position: absolute;
+        top:66px;right: 0;
+        width:200px;
+        height:100%;
+        background: cornflowerblue;
+        transform: translateX(100%);
+        transition: all 0.3s ease-in-out;
+    }
+    .m-right button{/*Ajuster le bouton langues dans le menu deroulant*/
+        margin-top: 10px;
+        margin-left: 55px;
+    }
+    .m-link{/*Affichage des liens sur la droite*/
+        display: block;
+        text-align: center;
+        padding: 0px;margin: 0 20px;
+        height: 55px;
+    }
+    .m-nav-toggle{/*Hamburger*/
+        display: flex;
+    }
+}

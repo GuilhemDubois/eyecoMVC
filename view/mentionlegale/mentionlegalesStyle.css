@@ -1,0 +1,88 @@
+body{
+    background-color: #8ECBEA;
+}
+.CGU{/*premiere slide page de apropos*/
+    width: 100%;
+    height: 20%;
+    background-color:#8ECBEA ;
+    background-size: cover;
+}
+#c-title /*titre de la page*/
+{
+
+    width: 60%;
+    overflow: auto;
+    padding: 12px;
+    margin-top: 30px;
+    color: white;
+    border-bottom: 2px solid white;
+    text-align: center;
+    position:absolute;
+    left:50%;
+    transform: translate(-50%);
+}
+#c-title h2{/*Ajuster la taille du titre*/
+    font-weight: 700;
+}
+
+.c-text {/*texte de présentation*/
+    background-color: #8ECBEA;
+    text-align: center;
+    padding: 60px;
+    color: white;
+}
+
+@media only screen and (max-width: 1130px){/*Responsive*/
+    .m-right{/*Supprimer le nom des pages sous 1130px*/
+        position: absolute;
+        top:66px;right: 0;
+        width:200px;
+        height:100%;
+        background: cornflowerblue;
+        transform: translateX(100%);
+        transition: all 0.3s ease-in-out;
+    }
+    .m-right button{/*Ajuster le bouton langues dans le menu deroulant*/
+        margin-top: 10px;
+        margin-left: 55px;
+    }
+    .m-link{/*Affichage des liens sur la droite*/
+        display: block;
+        text-align: center;
+        padding: 0px;margin: 0 20px;
+        height: 55px;
+    }
+    .m-nav-toggle{/*Hamburger*/
+        display: flex;
+    }
+    #c-title{/*responsive du titre*/
+        width: 50%;
+    }
+}
+@media only screen and (max-width: 930px){/*Responsive*/
+    .m-right{/*Supprimer le nom des pages sous 1200px*/
+        position: absolute;
+        top:66px;right: 0;
+        width:200px;
+        height:100%;
+        background: cornflowerblue;
+        transform: translateX(100%);
+        transition: all 0.3s ease-in-out;
+    }
+    .m-right button{/*Ajuster le bouton langues dans le menu deroulant*/
+        margin-top: 10px;
+        margin-left: 55px;
+    }
+    .m-link{/*Affichage des liens sur la droite*/
+        display: block;
+        text-align: center;
+        padding: 0px;margin: 0 20px;
+        height: 55px;
+    }
+    .m-nav-toggle{/*Hamburger*/
+        display: flex;
+    }
+    #c-title{/*responsive du titre*/
+        width: 40%;
+    }
+}

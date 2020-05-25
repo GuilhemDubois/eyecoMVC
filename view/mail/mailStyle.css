@@ -1,0 +1,53 @@
+
+#email
+{
+
+position: fixed;
+
+    right: 36%;
+    bottom: 33%;
+
+
+
+}
+#pres
+{
+
+    font-family: gill sans;
+    color: white;
+    position: fixed;
+    right: 38%;
+    bottom: 60%;
+    font-size: 1.5em;
+
+
+}
+
+#boite
+{
+
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+    color: white;
+    font-family: gill sans;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1em;
+
+
+}
+.envoyermail
+{
+
+    position: fixed;
+    bottom: 25%;
+    right: 44%;
+    font-size: 1.3em;
+    width: 10%;
+
+
+}
+

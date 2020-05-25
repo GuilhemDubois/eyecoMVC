@@ -1,0 +1,123 @@
+.accueil{/*premiere slide page d'accueil*/
+    width: 100%;
+    height: 100%;
+    background: url(../../../Infinite-measure/Infinite-measure/images/background.png) no-repeat center center ;
+    background-size: cover;
+}
+
+
+.a-title /*Boite sur premiere slide page d'accueil*/
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+    overflow: auto;
+    padding: 12px;
+    color: white;
+    border: 2px solid white;
+    text-align: center;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+.a-title h2{/*Ajuster le titre de la page d'acceuil*/
+    font-weight: 700;
+}
+.a-info {/*Deuxieme slide page d'accueil*/
+    width: 100%;
+    height: 100%;
+    background: url(../../../Infinite-measure/Infinite-measure/images/accueil_1.PNG) no-repeat center center ;
+    background-size: cover;
+}
+@media only screen and (max-width: 1130px){/*Responsive*/
+    .m-right{/*Supprimer le nom des pages sous 1130px*/
+        position: absolute;
+        top:66px;right: 0;
+        width:200px;
+        height:100%;
+        background: cornflowerblue;
+        transform: translateX(100%);
+        transition: all 0.3s ease-in-out;
+    }
+    .m-right button{/*Ajuster le bouton langues dans le menu deroulant*/
+        margin-top: 10px;
+        margin-left: 55px;
+    }
+    .m-link{/*Affichage des liens sur la droite*/
+        display: block;
+        text-align: center;
+        padding: 0px;margin: 0 20px;
+        height: 55px;
+    }
+    .m-nav-toggle{/*Hamburger*/
+        display: flex;
+    }
+    .a-title{/*responsive du titre*/
+        width: 50%;
+    }
+}
+@media only screen and (max-width: 930px){/*Responsive*/
+    .m-right{/*Supprimer le nom des pages sous 930px*/
+        position: absolute;
+        top:66px;right: 0;
+        width:200px;
+        height:100%;
+        background: cornflowerblue;
+        transform: translateX(100%);
+        transition: all 0.3s ease-in-out;
+    }
+    .m-right button{/*Ajuster le bouton langues dans le menu deroulant*/
+        margin-top: 10px;
+        margin-left: 55px;
+    }
+    .m-link{/*Affichage des liens sur la droite*/
+        display: block;
+        text-align: center;
+        padding: 0px;margin: 0 20px;
+        height: 55px;
+    }
+    .m-nav-toggle{/*Hamburger*/
+        display: flex;
+    }
+    .a-info{
+        display: none;
+    }
+    .a-title{/*responsive du titre*/
+        width: 40%;
+    }
+}
+@media only screen and (max-width: 780px){/*Responsive*/
+    .m-right{/*Supprimer le nom des pages sous 780px*/
+        position: absolute;
+        top:66px;right: 0;
+        width:200px;
+        height:100%;
+        background: cornflowerblue;
+        transform: translateX(100%);
+        transition: all 0.3s ease-in-out;
+    }
+    .m-right button{/*Ajuster le bouton langues dans le menu deroulant*/
+        margin-top: 10px;
+        margin-left: 55px;
+    }
+    .m-link{/*Affichage des liens sur la droite*/
+        display: block;
+        text-align: center;
+        padding: 0px;margin: 0 20px;
+        height: 55px;
+    }
+    .m-nav-toggle{/*Hamburger*/
+        display: flex;
+    }
+    .a-info{
+        display: none;
+    }
+    .a-title{/*responsive du titre*/
+        display: none;
+    }
+}
+
+
