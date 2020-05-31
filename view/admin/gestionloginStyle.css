@@ -1,0 +1,52 @@
+body{
+    background-color: #8ECBEA;
+}
+.gestion {
+    width: 100%;
+    height: 90%;
+}
+.g-form {
+    height: 50%;
+    padding-top: 5%;
+}
+.g-form form{
+    position:absolute;
+    left:50%;
+    transform: translate(-50%);
+    border: 2px solid cornflowerblue;
+}
+.g-all{
+    width: 100%;
+    height: 20%;
+}
+.g-all table{
+    position:absolute;
+    left:50%;
+    transform: translate(-50%);
+    border: 2px solid cornflowerblue;
+    color: black;
+}
+.g-button{/*div du bouton*/
+    background-color: #8ECBEA;
+
+}
+
+.g-button-start{/*bouton*/
+    background-color: #ff6a19;
+    width: 20%;
+    border:none;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    display:block;
+    font-size: 16px;
+    border-radius: 2rem;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 20px;
+
+}
+.g-button-start:hover{
+    background-color: #ff955c;
+}
