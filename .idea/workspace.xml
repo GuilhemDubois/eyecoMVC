@@ -2,12 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="911ae9f8-a49b-409a-8459-4e0d29f4d06b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/connexion.php" beforeDir="false" afterPath="$PROJECT_DIR$/model/connexion.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/faq.php" beforeDir="false" afterPath="$PROJECT_DIR$/model/faq.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/inscription.php" beforeDir="false" afterPath="$PROJECT_DIR$/model/inscription.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/view/admin/gestionResultat.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/admin/gestionResultat.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/view/admin/gestionlogin.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/admin/gestionlogin.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/footer/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/footer/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/mentionlegale/mentionlegales.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/mentionlegale/mentionlegales.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/connexion/VotreProfil.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/connexion/VotreProfil.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/header/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/header/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/inscription/inscription.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/inscription/inscription.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +66,7 @@
       <workItem from="1590307434746" duration="29630000" />
       <workItem from="1590414161102" duration="1053000" />
       <workItem from="1590416952858" duration="2042000" />
-      <workItem from="1590955162007" duration="855000" />
+      <workItem from="1590955162007" duration="2626000" />
     </task>
     <servers />
   </component>
@@ -77,10 +82,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="549" y="175" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1590308795589" />
-    <state x="604" y="357" key="NewPhpFileDialog" timestamp="1590337337993">
+    <state x="604" y="357" key="NewPhpFileDialog" timestamp="1590956997129">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="604" y="357" key="NewPhpFileDialog/0.0.1536.864@0.0.1536.864" timestamp="1590337337993" />
+    <state x="604" y="357" key="NewPhpFileDialog/0.0.1536.864@0.0.1536.864" timestamp="1590956997129" />
     <state x="277" y="76" key="SettingsEditor" timestamp="1590307440652">
       <screen x="0" y="0" width="1536" height="864" />
     </state>

@@ -4,7 +4,7 @@ include('model\bdd.php');
 if (!isset($_GET['function']) || empty($_GET['function'])) {
     $function = "accueil";
 } else {
-    $function = $_GET['function'];
+    $function = htmlspecialchars($_GET['function']);
 
 }
 switch ($function) {
@@ -71,7 +71,7 @@ switch ($function) {
         } else {
             echo "User or password incorrect !";
         }}
-    if (password_verify($_POST['mdp'],$user->mdp)) {
+    if (password_verify(htmlspecialchars($_POST['mdp']),$user->mdp)) {
         $_SESSION['auth'] = $user;
         var_dump($_SESSION['auth']);
         header('Location: controller.php?function=accueil');

@@ -8,7 +8,7 @@
             }
             else
             {
-                echo "Log in";
+                echo "Login";
             }
             ?></h3>
         <form action="#" method="post">
@@ -40,25 +40,18 @@
             }
             else
             {
-                echo "Connexion";
+                echo "Login";
             }
             ?>">
-            <a href="motdepasse.php"><?php if ($_SESSION['langue'] == 'francais')
-                {
-                    echo "Mot de passe oublié ?";
-                }
-                else
-                {
-                    echo "Password forget ?";
-                }
-                ?></a><br><br>
+
+                <br><br>
             <a href="controller.php?function=inscription"><?php if ($_SESSION['langue'] == 'francais')
                 {
                     echo "S'inscrire";
                 }
                 else
                 {
-                    echo "Inscription";
+                    echo "Register";
                 }
                 ?></a>
 

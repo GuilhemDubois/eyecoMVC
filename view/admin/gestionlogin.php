@@ -1,3 +1,25 @@
+<head>
+    <meta charset="utf-8" />
+    <title>  <?php if ($_SESSION['langue'] == 'francais')
+        {
+            echo "Gestion logins";
+
+        }
+        else
+        {
+            echo "Logins";
+
+        }
+        ?></title>
+
+
+    <link rel="stylesheet" href="view/admin/gestionloginStyle.css"/>
+
+
+
+
+
+</head>
 <?php
 
 
@@ -121,7 +143,7 @@ if($dejaAfficher == 0){
                     </label></td>
                 <td width='369' bgcolor='#CCFF00'><label>
                         <input name='id_user' type='text' id='id_user' value='' />
-                    </label>Recherche par nom</td>
+                    </label>Recherche par identifiant</td>
             </tr>
             <tr>
                 <td>Nom</td>
@@ -217,4 +239,27 @@ endforeach;
         $test=$row;
     } ?>
 </table>
+<br><br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br><br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br><br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
 

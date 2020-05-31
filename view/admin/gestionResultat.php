@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <title>  <?php if ($_SESSION['langue'] == 'francais')
         {
-            echo "Résultats";
+            echo "Gestion Résultats";
 
         }
         else
