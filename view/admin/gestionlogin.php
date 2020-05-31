@@ -20,6 +20,8 @@
 
 
 </head>
+<div class="gestion">
+    <div class ="g-form">
 <?php
 
 
@@ -183,7 +185,8 @@ if($dejaAfficher == 0){
         <p> </p>
     </form>
 <?php } ?>
-
+    </div>
+    <div class="g-all">
 <!-- Affichage de tous les users -->
 <?php  $req = $bdd->prepare("SELECT * FROM user ");
 $req->execute();
@@ -239,27 +242,21 @@ endforeach;
         $test=$row;
     } ?>
 </table>
-<br><br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br><br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br><br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
+    </div>
+    <div class="g-button">
+        <a href="controller.php?function=stats" class="g-button-start"><?php if ($_SESSION['langue'] == 'francais')
+            {
+                echo "Statistiques";
+            }
+            else
+            {
+                echo "Statistics";
+            }
+            ?></a>
+
+    </div>
+</div>
+
 
 
 

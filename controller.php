@@ -175,6 +175,14 @@ switch ($function) {
         $vue="mentionlegale/mentionlegales";
         break;
 
+    case 'stats':
+
+        include('model/stats.php');
+        $valeur = statss($bdd);
+        $nbInscrit = $valeur -> nbInscrit;
+        $vue="stats/statistique";
+        break;
+
     default:
         // si aucune fonction ne correspond au paramètre function passé en GET
         $vue = "error404";
