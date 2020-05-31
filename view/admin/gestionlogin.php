@@ -1,5 +1,5 @@
 <?php
-include('header.php');
+
 
 $dejaAfficher = 0;	//Bool True si form afficher via le bouton "rechercher"
 if (isset($_POST['rechercher'])){
@@ -8,7 +8,7 @@ if (isset($_POST['rechercher'])){
     if(isset($_POST['id_user'])){
         $rech=$_POST['id_user'];}
 
-    $req = $pdo->prepare("SELECT * FROM user WHERE identifiant='$rech'");
+    $req = $bdd->prepare("SELECT * FROM user WHERE identifiant='$rech'");
     $req->execute();
     $alluser= $req->fetchAll();
     $ALLUSERS=array('');
@@ -23,7 +23,7 @@ if (isset($_POST['rechercher'])){
         $dejaAfficher = 1;
         ?> <!-- Vérif si $ALLUSERS[8] fait pas une erreur ou laisse passer alors que pas initialisé -->
 
-        <form id='form1' name='form1' method='post' action='gestionlogin.php'>
+        <form id='form1' name='form1' method='post' action='controller.php?function=gestionlogin'>
             <table width='420' border='0'>
                 <tr>
                     <td width='169' bgcolor='#CCFF00'><label>
@@ -75,7 +75,7 @@ if (isset($_POST['rechercher'])){
     else
     {
         echo '<body onLoad=" alert(\'Client introuvable...\') "> ';
-        echo '<meta http-equiv="refresh" content="0;URL=gestionlogin.php">';
+        echo '<meta http-equiv="refresh" content="0;URL=controller.php?function=gestionlogin">';
     }
 } else { //On est arriver sur la page soit par un autre bouton que "Rechercher" (ex : modif/suppr), soit via un URL en général
 
@@ -90,13 +90,13 @@ if (isset($_POST['rechercher'])){
         {
 
             echo '<body onLoad="alert(\'faire une recherch avant la modification ou verifiez les champs\')">';
-            echo '<meta http-equiv="refresh" content="0;URL=gestionlogin.php">';
+            echo '<meta http-equiv="refresh" content="0;URL=controller.php?function=gestionlogin">';
         } else {
-            $req = $pdo->prepare("UPDATE user SET nom='$nom',prenom='$prenom',identifiant='$identifiant',email='$email',codepilote='$codepilote' where identifiant ='$rech'");
+            $req = $bdd->prepare("UPDATE user SET nom='$nom',prenom='$prenom',identifiant='$identifiant',email='$email',codepilote='$codepilote' where identifiant ='$rech'");
             $req->execute();
 
             echo '<body onLoad="alert(\'Modification effectuée...\')">';
-            echo '<meta http-equiv="refresh" content="0;URL=gestionlogin.php">';
+            echo '<meta http-equiv="refresh" content="0;URL=controller.php?function=gestionlogin">';
         }
     }
 
@@ -104,16 +104,16 @@ if (isset($_POST['rechercher'])){
     {
         $rech=$_POST['id_user'];
 
-        $req = $pdo->prepare("DELETE  FROM user  where identifiant ='$rech'");
+        $req = $bdd->prepare("DELETE  FROM user  where identifiant ='$rech'");
         $req->execute();
 
-        echo '<meta http-equiv="refresh" content="0;URL=gestionlogin.php">';
+        echo '<meta http-equiv="refresh" content="0;URL=controller.php?function=gestionlogin">';
     }
 }
 
 if($dejaAfficher == 0){
     ?>
-    <form id='form1' name='form1' method='post' action='gestionlogin.php'>
+    <form id='form1' name='form1' method='post' action='controller.php?function=gestionlogin'>
         <table width='420' border='0'>
             <tr>
                 <td width='169' bgcolor='#CCFF00'><label>
@@ -163,7 +163,7 @@ if($dejaAfficher == 0){
 <?php } ?>
 
 <!-- Affichage de tous les users -->
-<?php  $req = $pdo->prepare("SELECT * FROM user ");
+<?php  $req = $bdd->prepare("SELECT * FROM user ");
 $req->execute();
 $alluser= $req->fetchAll();$ALLUSERS=array('');
 foreach($alluser as $allUSER):

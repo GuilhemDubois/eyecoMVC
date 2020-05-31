@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="911ae9f8-a49b-409a-8459-4e0d29f4d06b" name="Default Changelist" comment="" />
+    <list default="true" id="911ae9f8-a49b-409a-8459-4e0d29f4d06b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/admin/gestionResultat.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/admin/gestionResultat.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/admin/gestionlogin.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/admin/gestionlogin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/footer/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/footer/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/mentionlegale/mentionlegales.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/mentionlegale/mentionlegales.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -54,6 +61,7 @@
       <workItem from="1590307434746" duration="29630000" />
       <workItem from="1590414161102" duration="1053000" />
       <workItem from="1590416952858" duration="2042000" />
+      <workItem from="1590955162007" duration="855000" />
     </task>
     <servers />
   </component>
@@ -77,10 +85,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="277" y="76" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1590307440652" />
-    <state x="465" y="258" key="com.intellij.ide.util.TipDialog" timestamp="1590414160480">
+    <state x="465" y="258" key="com.intellij.ide.util.TipDialog" timestamp="1590955160068">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="465" y="258" key="com.intellij.ide.util.TipDialog/0.0.1536.864@0.0.1536.864" timestamp="1590414160480" />
+    <state x="465" y="258" key="com.intellij.ide.util.TipDialog/0.0.1536.864@0.0.1536.864" timestamp="1590955160068" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

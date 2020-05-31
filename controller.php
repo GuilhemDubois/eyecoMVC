@@ -138,7 +138,7 @@ switch ($function) {
         break;
 
 
-     case 'reponse':
+        case 'reponse':
          include('model/faq.php');
          $questionEtSaRep = reponse($bdd);
          if(!empty($questionEtSaRep)){
@@ -159,6 +159,21 @@ switch ($function) {
      }
          $vue='FAQ/reponse';
          break;
+
+    case 'gestionlogin':
+
+        $vue="admin/gestionlogin";
+        break;
+
+    case 'gestionResultat':
+
+        $vue="admin/gestionResultat";
+        break;
+
+    case 'mentionlegales':
+
+        $vue="mentionlegale/mentionlegales";
+        break;
 
     default:
         // si aucune fonction ne correspond au paramètre function passé en GET

@@ -27,7 +27,7 @@
                 ?></h1>
             <div class="border"></div>
             <ul>
-                <a href="controller.php?function=acceuil"><li><?php if ($_SESSION['langue'] == 'francais')
+                <a href="controller.php?function=accueil"><li><?php if ($_SESSION['langue'] == 'francais')
                         {
                             echo "Accueil";
                         }
@@ -82,7 +82,7 @@
 
     <div class="footer-bottom">
         Copyright 2020 | All rights reserved |
-        <a href="../mentionlegale/mentionlegales.php">CGU</a>
+        <a href="controller.php?function=mentionlegales">CGU</a>
     </div>
 
 
