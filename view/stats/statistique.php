@@ -4,7 +4,7 @@
     <title>Statistiques</title>
 
     <link rel="stylesheet" href="view/FAQ/FAQ.css"/>
-    <link rel="stylesheet" href="../accueil/normalize.css"/>
+
 
 
 </head>
@@ -19,11 +19,12 @@
 </div>
 
 <body>
-
+<br><br><br><br><br><br><br><br>
+<h2>
 <?php
 echo  'il y a actuelement ' . $nbInscrit[0] . ' inscrit (non administrateur) sur le site' ;
-?>
-
+?></h2>
+<br><br><br><br><br><br><br><br>
 
 
 
