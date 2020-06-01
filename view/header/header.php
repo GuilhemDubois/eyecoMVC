@@ -123,7 +123,7 @@ $_SESSION["location"] = $adresse;
                     }
                     else
                     {
-                        echo "Deconect";
+                        echo "logout";
                     }
                     ?></a>
          <?php      }
@@ -135,7 +135,7 @@ $_SESSION["location"] = $adresse;
                     }
                     else
                     {
-                        echo "Connect";
+                        echo "login";
                     }
                     ?></a>
                 <?php } ?>

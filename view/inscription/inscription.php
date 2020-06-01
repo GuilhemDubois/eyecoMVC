@@ -13,15 +13,6 @@
 
 <body>
 
-
-
-
-
-
-
-
-
-
 <?php if(isset($errors) && !empty($errors) ): ?>
     <div class="ereur">
         <h1>Remplissage du formulaire incorrect. Veuillez réessayer.</h1>
@@ -46,7 +37,7 @@
             }
             else
             {
-                echo "Log in";
+                echo "Login";
             }
             ?></h3>
         <form action="controller.php?function=inscription" method="post">
@@ -60,7 +51,15 @@
             <br>
             <input type="submit" value="S'inscrire">
 
-            <a href="controller.php?function=connexion">Se connecter</a>
+            <a href="controller.php?function=connexion"><?php if ($_SESSION['langue'] == 'francais')
+                {
+                    echo "Inscription";
+                }
+                else
+                {
+                    echo "Login";
+                }
+                ?></a>
 
         </form>
     </div>

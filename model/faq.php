@@ -19,7 +19,7 @@ function reponse(PDO $bdd)
 function reponseadd(PDO $bdd,$quest)
 {
     $req = $bdd->prepare("UPDATE faq SET reponse=? WHERE idQuestion=$quest ");
-    return $req->execute([ $_POST['zoneQuestion']]);
+    return $req->execute([ htmlspecialchars($_POST['zoneQuestion'])]);
 }
 function reponsesuppr(PDO $bdd,$quest)
 {
