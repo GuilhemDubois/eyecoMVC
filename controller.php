@@ -177,9 +177,6 @@ switch ($function) {
 
     case 'stats':
 
-        include('model/stats.php');
-        $valeur = statss($bdd);
-        $nbInscrit = $valeur -> nbInscrit;
         $vue="stats/statistique";
         break;
 

@@ -32,16 +32,16 @@
     <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Wamp\www\eyecoMVC\view\FAQ" />
-      <recent name="D:\Wamp\www\eyecoMVC\view\header" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Wamp\www\eyecoMVC\view\connexion" />
       <recent name="D:\Wamp\www\eyecoMVC\view\inscription" />
       <recent name="D:\Wamp\www\eyecoMVC\public" />
       <recent name="D:\Wamp\www\eyecoMVC\model" />
       <recent name="D:\Wamp\www\eyecoMVC\view\acceuil" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Wamp\www\eyecoMVC\view\FAQ" />
+      <recent name="D:\Wamp\www\eyecoMVC\view\header" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -58,6 +58,7 @@
       <workItem from="1590414161102" duration="1053000" />
       <workItem from="1590416952858" duration="2042000" />
       <workItem from="1590955162007" duration="4581000" />
+      <workItem from="1591010898365" duration="3277000" />
     </task>
     <servers />
   </component>
@@ -81,10 +82,11 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="277" y="76" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1590307440652" />
-    <state x="465" y="258" key="com.intellij.ide.util.TipDialog" timestamp="1590955160068">
-      <screen x="0" y="0" width="1536" height="864" />
+    <state x="581" y="311" key="com.intellij.ide.util.TipDialog" timestamp="1591010903682">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="465" y="258" key="com.intellij.ide.util.TipDialog/0.0.1536.864@0.0.1536.864" timestamp="1590955160068" />
+    <state x="581" y="311" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1591010903682" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -22,6 +22,9 @@
 <br><br><br><br><br><br><br><br>
 <h2>
 <?php
+include('model/stats.php');
+$valeur = calculNbInscrit($bdd);
+$nbInscrit = $valeur -> nbInscrit;
 echo  'il y a actuelement ' . $nbInscrit[0] . ' inscrit (non administrateur) sur le site' ;
 ?></h2>
 <br><br><br><br><br><br><br><br>

@@ -6,30 +6,21 @@ $userIP = $_SERVER['REMOTE_ADDR'];      // recup de l'IP USER
 
 
     // verification que l'utilisateur n'est pas déjà dans la BDD //
-$req_ip_exist = $bdd ->prepare('SELECT * FROM online WHERE userIP = ?');
-$req_ip_exist ->execute(array($userIP));
-$ip_existe = $req_ip_exist -> rowCount();
+$ip_existe = ip($bdd,$userIP);
 
-                // si il n'est pas dedans
 if($ip_existe == 0){
-    $add_ip = $bdd ->prepare('INSERT INTO online(userIP,temps) VALUES (?,?)');
-    $add_ip -> execute(array($userIP,$temps_actuel));
+    pasDejaCo($bdd,$userIP,$temps_actuel);      // si il n'est pas dedans
 }
-                // si il est déjà dedans
+
 else{
-    $update_ip = $bdd->prepare('UPDATE online SET temps = ? WHERE userIP = ?');
-    $update_ip->execute(array($temps_actuel,$userIP));
+    dejaCo($bdd,$temps_actuel,$userIP);         // si il est déjà dedans
 }
 
 $session_delete_time =  $temps_actuel - $temps_session;  //calcul du temps auquel il faut supprimer les données USER
 
-$delet_ip = $bdd->prepare('DELETE FROM online WHERE temps < ?');
-$delet_ip->execute(array($session_delete_time));
-
-//compteur d'utilisateur actuelement sur le site
-$show_user_nbr = $bdd->prepare('SELECT COUNT(*) AS nbCoLive FROM online');
-$show_user_nbr ->execute();
-$user_nbr = $show_user_nbr ->fetch();
+verificationTiming($bdd,$session_delete_time);
 
 
-$nbCoLive = $user_nbr -> nbCoLive;
+
+$user_nbr= conteur($bdd);           //compteur d'utilisateur actuelement sur le site
+
