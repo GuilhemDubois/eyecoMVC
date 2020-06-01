@@ -10,7 +10,7 @@ function ip(PDO $bdd,$userIP)
 {
     $req_ip_exist = $bdd ->prepare('SELECT * FROM online WHERE userIP = ?');
     $req_ip_exist ->execute(array($userIP));
-    return $req_ip_exist -> rowCount();;
+    return $req_ip_exist -> rowCount();
 }
 
 function pasDejaCo(PDO $bdd,$userIP,$temps_actuel)
@@ -34,7 +34,7 @@ function verificationTiming(PDO $bdd,$session_delete_time)
     return;
 }
 
-function couteur(PDO $bdd)
+function conteur(PDO $bdd)
 {
     $show_user_nbr = $bdd->prepare('SELECT COUNT(*) AS nbCoLive FROM online');
     $show_user_nbr ->execute();
