@@ -50,7 +50,7 @@ $nbInscrit = $valeur -> nbInscrit;
 echo  'il y a actuelement ' . $nbInscrit[0] . ' inscrit (non administrateur) sur le site' ;
 ?><br><br><br>
 <?php
-    echo 'Il y a ' . $nbCoLive . ' differents connecté sur le site';
+    echo 'Il y a ' . $nbCoLive . ' utilisateurs differents connecté sur le site';
 ?>
 
 </h2>
