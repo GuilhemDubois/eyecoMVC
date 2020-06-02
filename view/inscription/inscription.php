@@ -42,14 +42,62 @@
             ?></h3>
         <form action="controller.php?function=inscription" method="post">
 
-            <input type="text" name="prenom" id="prenom" placeholder="Prénom" size="28" maxlength="20"><br/>
-            <input type="text" name="nom" id="nom" placeholder="Nom" size="20" maxlength="20"><br/>
-            <input type="text" name="identifiant" id="identifiant" placeholder="Identifiant" size="20" maxlength="20"><br/>
-            <input type="number" name="codepilote" id="codepilote" placeholder="Code Pilote" size="20" maxlength="20"><br/>
-            <input type="email" name="email" id="email" placeholder="Email" size="20" maxlength="50"><br/>
-            <input type="password" name="mdp" id="mdp" placeholder="Mot de passe">
+            <input type="text" name="prenom" id="prenom"  size="28" maxlength="20" placeholder="<?php if ($_SESSION['langue'] == 'francais')
+            {
+                echo "Prénom";
+            }
+            else
+            {
+                echo "First name";
+            }
+            ?>"><br/>
+            <input type="text" name="nom" id="nom"  size="20" maxlength="20" placeholder="<?php if ($_SESSION['langue'] == 'francais')
+            {
+                echo "Nom";
+            }
+            else
+            {
+                echo "Last name";
+            }
+            ?>"><br/>
+            <input type="text" name="identifiant" id="identifiant"  size="20" maxlength="20" placeholder="<?php if ($_SESSION['langue'] == 'francais')
+            {
+                echo "Identifiant";
+            }
+            else
+            {
+                echo "Username";
+            }
+            ?>"><br/>
+            <input type="number" name="codepilote" id="codepilote"  size="20" maxlength="20" placeholder="<?php if ($_SESSION['langue'] == 'francais')
+            {
+                echo "Code pilote";
+            }
+            else
+            {
+                echo "Pilot code";
+            }
+            ?>"><br/>
+            <input type="email" name="email" id="email" size="20" maxlength="50" placeholder="Email"><br/>
+            <input type="password" name="mdp" id="mdp" placeholder="<?php if ($_SESSION['langue'] == 'francais')
+            {
+                echo "Mot de passe";
+            }
+            else
+            {
+                echo "Password";
+            }
+            ?>">
             <br>
-            <input type="submit" value="S'inscrire">
+            <input type="submit" value="<?php if ($_SESSION['langue'] == 'francais')
+            {
+                echo "S'inscrire";
+            }
+            else
+            {
+                echo "Register";
+            }
+            ?>"">
 
             <a href="controller.php?function=connexion"><?php if ($_SESSION['langue'] == 'francais')
                 {

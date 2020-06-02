@@ -13,7 +13,15 @@
 
     <div class="faq">
         <div class="f-title">
-            <h2>Bienvenue sur la FAQ</h2>
+            <h2><?php if ($_SESSION['langue'] == 'francais')
+                {
+                    echo "BIENVENUE SUR LA FAQ";
+                }
+                else
+                {
+                    echo "FREQUENTLY ASKED QUESTIONS";
+                }
+                ?></h2>
         </div>
     </div>
 
@@ -35,9 +43,6 @@
     <?php if(!isset($_SESSION['auth'])):  ?>
         <a class = "askquest" href = "controller.php?function=connexion" title = "Poser Question">Poser Question</a>
     <?php endif; ?>
-
-
-
 
 
     <div class="f-container">

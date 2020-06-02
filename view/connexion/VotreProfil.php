@@ -2,7 +2,7 @@
 <div class="connexion">
     <div class="c-form">
 
-        <h3><?php $_SESSION['langue'] ='francais'; if ($_SESSION['langue'] == 'francais')
+        <h3><?php if ($_SESSION['langue'] == 'francais')
             {
                 echo "Connexion";
             }
