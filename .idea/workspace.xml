@@ -15,6 +15,20 @@
       <executable />
     </execution>
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -62,6 +76,7 @@
       <workItem from="1591014490627" duration="1294000" />
       <workItem from="1591015807727" duration="42000" />
       <workItem from="1591015905055" duration="12000" />
+      <workItem from="1591092134319" duration="1026000" />
     </task>
     <servers />
   </component>
@@ -69,6 +84,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="-1531" y="210" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1591092761214">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1531" y="210" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1591092761214" />
     <state x="499" y="180" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1590308814617">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -85,11 +104,11 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="277" y="76" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1590307440652" />
-    <state x="581" y="311" key="com.intellij.ide.util.TipDialog" timestamp="1591015905047">
+    <state x="581" y="311" key="com.intellij.ide.util.TipDialog" timestamp="1591092134614">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="465" y="258" key="com.intellij.ide.util.TipDialog/0.0.1536.864@0.0.1536.864" timestamp="1590955160068" />
-    <state x="581" y="311" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1591015905047" />
+    <state x="581" y="311" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1591092134614" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
