@@ -33,10 +33,10 @@
                         }
                         else
                         {
-                            echo "HOME";
+                            echo "Home";
                         }
                         ?></li></a>
-                <a href="controller.php?function=test"><li>TEST</li></a>
+                <a href="controller.php?function=test"><li>Test</li></a>
 
                 <a href="controller.php?function=NousConnaitre"><li><?php if ($_SESSION['langue'] == 'francais')
                         {
@@ -44,7 +44,7 @@
                         }
                         else
                         {
-                            echo "ABOUT US";
+                            echo "About us";
                         }
                         ?></li></a>
             </ul>
@@ -57,7 +57,7 @@
                 }
                 else
                 {
-                    echo "Question ?";
+                    echo "Questions ?";
                 }
                 ?></h1>
             <div class="border"></div>

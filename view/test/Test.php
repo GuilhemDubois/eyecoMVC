@@ -29,7 +29,7 @@
 
     </div>
     <div id="t-button">
-        <button class="button-commencer"><?php if ($_SESSION['langue'] == 'francais')
+        <button  class="button-commencer"><?php if ($_SESSION['langue'] == 'francais')
             {
                 echo "COMMENCER";
             }

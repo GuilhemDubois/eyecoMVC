@@ -38,11 +38,11 @@
     <div class="ap-text">
         <p><?php if ($_SESSION['langue'] == 'francais')
             {
-                echo "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat. Duis semper. Duis arcu massa, scelerisque vitae, consequat in, pretium a, enim. Pellentesque congue. Ut in risus volutpat libero pharetra tempor. Cras vestibulum bibendum augue. Praesent egestas leo in pede. Praesent blandit odio eu enim. Pellentesque sed dui ut augue blandit sodales. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam nibh. Mauris ac mauris sed pede pellentesque fermentum. Maecenas adipiscing ante non diam sodales hendrerit.";
+                echo "Le métier de l’ingénieur consiste à poser, étudier et résoudre de manière performante et innovante des problèmes souvent complexes de création, de conception, de réalisation, de mise en œuvre et de contrôle de produits, de systèmes ou de services.- éventuellement leur financement et leur commercialisation - au sein d’une organisation compétitive. Il intègre les préoccupations de protection de l’homme, de la vie et de l’environnement, et plus généralement du bien-être collectif. À ces fins, l’ingénieur doit posséder un ensemble de savoirs et de savoir-faire techniques, économiques, sociaux, environnementaux et humains adaptés à ses missions, reposant sur une solide culture scientifique et leur permettant d’apporter une vision globale à tout projet.";
             }
             else
             {
-                echo "J'ai fait un an de latin et j'étais obligé";
+                echo "An engineer uses science, technology and math to solve problems. We can see engineering everywhere in the world around us, improving the ways we work, travel, communicate, stay healthy, and entertain. Today, the field of engineering offers more career choices than any other discipline! In the past, there were four major engineering branches: mechanical, chemical, civil and electrical. Today, the number of available engineering degrees are vast. There are now six major branches of engineering: mechanical, chemical, civil, electrical, management, and geotechnical, and under each branch there are hundreds of different subcategories.";
             }
             ?></p>
 
