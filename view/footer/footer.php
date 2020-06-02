@@ -10,7 +10,7 @@
                 <li><i class="fas fa-map-marker-alt" aria-hidden="true"></i> 28 rue de la Paix</li>
                 <li><i class="fas fa-map-marker-alt" aria-hidden="true"></i> 75006 PARIS</li>
                 <li><i class="fas fa-phone-square-alt" aria-hidden="true"></i> 01 32 24 05 18</li>
-                <li href="#"><i class="fas fa-envelope" aria-hidden="true"></i> contact@eyeco.com</li>
+                <a href="mailto:contact@eyeco.com" class="mail"><i class="fas fa-envelope" aria-hidden="true"></i> contact@eyeco.com</a>
 
             </ul>
         </div>

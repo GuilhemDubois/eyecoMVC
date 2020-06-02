@@ -15,11 +15,8 @@
 
     <link rel="stylesheet" href="view/admin/gestionloginStyle.css"/>
 
-
-
-
-
 </head>
+<script src="view/accueil/app.js" charset="utf-8"></script>
 <div class="gestion">
     <div class ="g-form">
 <?php

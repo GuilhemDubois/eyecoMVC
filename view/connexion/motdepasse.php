@@ -143,6 +143,6 @@ if(!empty($_POST) && !empty($_POST['newmdp']) && !empty($_POST['oldmdp']) && !em
 
 
 <?php include('footer.php'); ?>
-<script src="../accueil/app.js" charset="utf-8"></script>
+<script src="view/accueil/app.js" charset="utf-8"></script>
 
 </body>

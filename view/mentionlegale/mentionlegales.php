@@ -28,5 +28,5 @@
     </div>
 
 
-    <script src="../accueil/app.js" charset="utf-8"></script>
+    <script src="view/accueil/app.js" charset="utf-8"></script>
 </body>
