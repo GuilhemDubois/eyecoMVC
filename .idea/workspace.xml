@@ -3,7 +3,25 @@
   <component name="ChangeListManager">
     <list default="true" id="911ae9f8-a49b-409a-8459-4e0d29f4d06b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/FAQ/FAQ.css" beforeDir="false" afterPath="$PROJECT_DIR$/view/FAQ/FAQ.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/.idea/tests.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Test" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Test.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/cible.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/images/Logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/images/Pres.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/images/enfant.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/images/fond.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/images/fond1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/images/images (1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/images/images.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/images/matthieu.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/images/tests.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/images/yessay.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/yaa.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
