@@ -101,7 +101,7 @@
 
             <a href="controller.php?function=connexion"><?php if ($_SESSION['langue'] == 'francais')
                 {
-                    echo "Inscription";
+                    echo "Connexion";
                 }
                 else
                 {

@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="911ae9f8-a49b-409a-8459-4e0d29f4d06b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/view/mail/mail.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/mail/mailStyle.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/inscription/inscription.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/inscription/inscription.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
