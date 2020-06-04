@@ -132,7 +132,9 @@ switch ($function) {
 
         if(!empty($_POST)) {
             question($bdd, $re, $date, $_POST['zoneQuestion']);
-            $vue='FAQ/FAQ';
+
+            echo '<body onLoad=" alert(\'Question envoyé...\') "> ';
+            
         }
 
         break;

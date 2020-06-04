@@ -15,7 +15,7 @@
 
 
         <div id="formulaire">
-            <form method="post" action="controller.php?function=FAQ">
+            <form method="post" action="controller.php?function=question">
                 <p>
                     <label for="zoneQuestion" id="entete"> Posez votre question :</label>
                     <textarea name="zoneQuestion" type="text" id="zoneQuestion" placeholder="Votre question"></textarea>
