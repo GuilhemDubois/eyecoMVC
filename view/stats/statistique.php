@@ -10,7 +10,7 @@
 </head>
 
 
-
+<script src="view/accueil/app.js" charset="utf-8"></script>
 
 <div class="statistiques">
     <div class="f-title">

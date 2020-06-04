@@ -1,6 +1,7 @@
 
 
 <html>
+
 <head>
     <meta charset="utf-8" />
     <title>  <?php if ($_SESSION['langue'] == 'francais')
@@ -26,7 +27,7 @@
 </head>
 
 
-
+<script src="view/accueil/app.js" charset="utf-8"></script>
 
 <?php  $admin=$_SESSION['auth']->admin;
 if($admin==0){echo '<body onLoad=" alert(\'Vous n avez pas le droit d acceder à cette page...\') "> ';

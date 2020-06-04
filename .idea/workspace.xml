@@ -3,7 +3,25 @@
   <component name="ChangeListManager">
     <list default="true" id="911ae9f8-a49b-409a-8459-4e0d29f4d06b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/stats/statistique.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/stats/statistique.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/.idea/tests.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Test" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Test.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/cible.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/images/Logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/images/Pres.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/images/enfant.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/images/fond.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/images/fond1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/images/images (1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/images/images.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/images/matthieu.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/images/tests.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/images/yessay.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/yaa.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,20 +60,20 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Eyeco" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Infinite-measure" />
     <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Wamp\www\eyecoMVC\view\FAQ" />
+      <recent name="D:\Wamp\www\eyecoMVC\view\header" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Wamp\www\eyecoMVC\view\connexion" />
       <recent name="D:\Wamp\www\eyecoMVC\view\inscription" />
       <recent name="D:\Wamp\www\eyecoMVC\public" />
       <recent name="D:\Wamp\www\eyecoMVC\model" />
       <recent name="D:\Wamp\www\eyecoMVC\view\acceuil" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Wamp\www\eyecoMVC\view\FAQ" />
-      <recent name="D:\Wamp\www\eyecoMVC\view\header" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -92,15 +110,15 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="499" y="180" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.864@0.0.1536.864" timestamp="1590308814617" />
-    <state x="3246" y="219" key="FileChooserDialogImpl" timestamp="1591093583896">
+    <state x="3246" y="219" key="FileChooserDialogImpl" timestamp="1591105214828">
       <screen x="2560" y="0" width="1920" height="1080" />
     </state>
-    <state x="3246" y="219" key="FileChooserDialogImpl/0.0.1280.720/2560.0.1920.1080@2560.0.1920.1080" timestamp="1591093583896" />
+    <state x="3246" y="219" key="FileChooserDialogImpl/0.0.1280.720/2560.0.1920.1080@2560.0.1920.1080" timestamp="1591105214828" />
     <state x="549" y="175" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1590308795589" />
-    <state x="604" y="357" key="NewPhpFileDialog" timestamp="1590958834717">
+    <state x="604" y="357" key="NewPhpFileDialog" timestamp="1591269091687">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="604" y="357" key="NewPhpFileDialog/0.0.1536.864@0.0.1536.864" timestamp="1590958834717" />
+    <state x="604" y="357" key="NewPhpFileDialog/0.0.1536.864@0.0.1536.864" timestamp="1591269091687" />
     <state x="277" y="76" key="SettingsEditor" timestamp="1590307440652">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -109,7 +127,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="465" y="258" key="com.intellij.ide.util.TipDialog/0.0.1536.864@0.0.1536.864" timestamp="1590955160068" />
-    <state x="581" y="311" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1591092134614" />
+    <state x="581" y="311" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1591015905047" />
+    <state x="425" y="197" key="run.anything.popup" timestamp="1591269986831">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="425" y="197" key="run.anything.popup/0.0.1536.864@0.0.1536.864" timestamp="1591269986830" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

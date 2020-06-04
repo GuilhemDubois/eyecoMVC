@@ -1,4 +1,5 @@
 <link rel="stylesheet" type="text/css" href="view/connexion/styleAccueil.css">
+<script src="view/accueil/app.js" charset="utf-8"></script>
 <div class="connexion">
     <div class="c-form">
 

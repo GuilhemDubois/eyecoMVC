@@ -57,6 +57,13 @@ ul a{/*nom des pages*/
 ul a:hover{/*hover des pages*/
     color: black;
 }
+.mail{
+    margin: 10px 0;
+    height: 25px;
+}
+.mail i{
+    margin-right: 20px;
+}
 ul li{
     margin: 10px 0;
     height: 25px;

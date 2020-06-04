@@ -180,6 +180,10 @@ switch ($function) {
         $vue="stats/statistique";
         break;
 
+    case 'profil':
+        $vue="connexion/profil";
+        break;
+
     default:
         // si aucune fonction ne correspond au paramètre function passé en GET
         $vue = "error404";

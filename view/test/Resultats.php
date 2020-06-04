@@ -102,7 +102,7 @@ for ($i = 1; $i <= $nbtest; $i++) {
         <?php } ?>
 </div>
 </section>
-
+    <script src="view/accueil/app.js" charset="utf-8"></script>
 <?php } ?>
 </body>
 
