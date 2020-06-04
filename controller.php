@@ -181,7 +181,7 @@ switch ($function) {
         break;
 
     case 'profil':
-        $vue="profil";
+        $vue="connexion/profil";
         break;
 
     default:

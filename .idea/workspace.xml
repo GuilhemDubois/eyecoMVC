@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="911ae9f8-a49b-409a-8459-4e0d29f4d06b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/view/header/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/header/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/profil.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/profil.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/profil.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/connexion/profil.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,16 +32,16 @@
     <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Wamp\www\eyecoMVC\view\FAQ" />
+      <recent name="D:\Wamp\www\eyecoMVC\view\header" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Wamp\www\eyecoMVC\view\connexion" />
       <recent name="D:\Wamp\www\eyecoMVC\view\inscription" />
       <recent name="D:\Wamp\www\eyecoMVC\public" />
       <recent name="D:\Wamp\www\eyecoMVC\model" />
       <recent name="D:\Wamp\www\eyecoMVC\view\acceuil" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Wamp\www\eyecoMVC\view\FAQ" />
-      <recent name="D:\Wamp\www\eyecoMVC\view\header" />
     </key>
   </component>
   <component name="SvnConfiguration">
