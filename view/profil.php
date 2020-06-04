@@ -107,4 +107,16 @@
 ?>
 
     </div>
+    <div class="g-button">
+        <a href="controller.php?function=deconnexion" class="g-button-start"><?php if ($_SESSION['langue'] == 'francais')
+            {
+                echo "Deconnexion";
+            }
+            else
+            {
+                echo "Logout";
+            }
+            ?></a>
+
+    </div>
 </div>

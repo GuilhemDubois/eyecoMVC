@@ -113,7 +113,7 @@ $_SESSION["location"] = $adresse;
 
                 <?php if (isset($_SESSION['auth']) )
                 { ?>
-                    <a href="controller.php?function=deconnexion" class="m-link"><i class="fas fa-user-check"></i>
+                    <a href="controller.php?function=profil" class="m-link"><i class="fas fa-user-check"></i>
                         <style>
                             .fa-user-check{
                                 color: darkgreen;
@@ -121,11 +121,11 @@ $_SESSION["location"] = $adresse;
                         </style>
                         <?php if ($_SESSION['langue'] == 'francais')
                     {
-                        echo "Deconnexion";
+                        echo "Votre profil";
                     }
                     else
                     {
-                        echo "logout";
+                        echo "Your profil";
                     }
                     ?></a>
          <?php      }
